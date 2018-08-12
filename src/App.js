@@ -57,7 +57,7 @@ class App extends Component {
         <iframe 
           src={this.state.articles[this.state.currentIndex].url}
           className="iframe"
-        ></iframe>
+        />
       );
     }
   }
